@@ -2,7 +2,7 @@ defmodule DetectWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", DetectWeb.RoomChannel
+  channel "location:*", DetectWeb.LocationChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After
